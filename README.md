@@ -28,6 +28,7 @@ This repository, **iiot6-webapp-suite**, contains a collection of web applicatio
 
 - Hotel WebApp ([details](HotelWebApp/README.md))
 - Restaurant WebApp ([details](ResturantsWebApp/README.md))
+- Online Store WebApp ([details](OnlineStoreWebApp/README.md))
 
 ---
 
@@ -72,6 +73,13 @@ iiot6-webapp-suite/
 │   └── ... (similar structure)
 │
 ├── HotelWebApp/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static/
+│   └── templates/
+│   └── README.md
+│
+├── OnlineStoreWebApp/
 │   ├── app.py
 │   ├── requirements.txt
 │   ├── static/
