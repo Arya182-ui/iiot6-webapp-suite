@@ -24,8 +24,10 @@ This repository, **iiot6-webapp-suite**, contains a collection of web applicatio
 
 ---
 
+
 ## Project List
 
+- Blog WebApp ([details](BlogWebApp/README.md))
 - Hotel WebApp ([details](HotelWebApp/README.md))
 - Restaurant WebApp ([details](ResturantsWebApp/README.md))
 - Online Store WebApp ([details](OnlineStoreWebApp/README.md))
