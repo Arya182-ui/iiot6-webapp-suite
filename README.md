@@ -26,20 +26,7 @@ This repository, **iiot6-webapp-suite**, contains a collection of web applicatio
 
 ## Project List
 
-- Blog WebApp
-- School WebApp
-- Portfolio WebApp
-- Startup WebApp
-- Hotel WebApp
-- NGO Charity WebApp
-- Fitness WebApp
-- Travel WebApp
-- Restaurant WebApp
-- Clinic WebApp
-- News WebApp
-- Lawyer WebApp
-- Online Store WebApp
-- Interior Design WebApp
+- Restaurant WebApp ([details](ResturantsWebApp/README.md))
 
 ---
 
@@ -82,6 +69,13 @@ iiot6-webapp-suite/
 │
 ├── PortfolioWebApp/
 │   └── ... (similar structure)
+│
+├── ResturantsWebApp/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── static/
+│   └── templates/
+│   └── README.md
 │
 ├── ... (other web apps)
 │
