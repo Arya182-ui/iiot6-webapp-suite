@@ -29,6 +29,35 @@
             font-size: 2.5rem;
             margin-bottom: 1rem;
         }
+        .btn-group-custom {
+            gap: 0.5rem;
+        }
+        .btn-source {
+            background: linear-gradient(45deg, #24292e, #586069);
+            border: none;
+            color: white;
+        }
+        .btn-source:hover {
+            background: linear-gradient(45deg, #586069, #24292e);
+            color: white;
+        }
+        .btn-live {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            border: none;
+            color: white;
+        }
+        .btn-live:hover {
+            background: linear-gradient(45deg, #20c997, #28a745);
+            color: white;
+        }
+        .card-title {
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .card-text {
+            color: #6c757d;
+            margin-bottom: 1.5rem;
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -38,7 +67,42 @@
             <div class="text-center">
                 <h1 class="display-4 fw-bold mb-3">🌐 IIOT-6 WebApp Suite</h1>
                 <p class="lead">14 Professional Web Applications - All in One Place</p>
-                <p class="mb-0">Invertis University | 6th Semester | B.Tech CSE (IIOT)</p>
+                <p class="mb-3">Invertis University | 6th Semester | B.Tech CSE (IIOT)</p>
+                
+                <!-- Quick Stats -->
+                <div class="row mt-4">
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="text-center">
+                            <h3 class="fw-bold">14</h3>
+                            <small>Web Apps</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="text-center">
+                            <h3 class="fw-bold">90+</h3>
+                            <small>HTML Pages</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="text-center">
+                            <h3 class="fw-bold">50+</h3>
+                            <small>Flask Routes</small>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-3">
+                        <div class="text-center">
+                            <h3 class="fw-bold">100%</h3>
+                            <small>Responsive</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- GitHub Link -->
+                <div class="mt-4">
+                    <a href="https://github.com/Arya182-ui/iiot6-webapp-suite" target="_blank" class="btn btn-light btn-lg">
+                        <i class="fab fa-github"></i> View Full Repository
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -59,7 +123,14 @@
                         </div>
                         <h5 class="card-title">Clinic WebApp</h5>
                         <p class="card-text">Professional healthcare clinic website with appointment booking and services.</p>
-                        <a href="/clinic/" class="btn btn-primary">Visit Clinic <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/clinic/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/ClinicWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -71,7 +142,14 @@
                         </div>
                         <h5 class="card-title">Fitness WebApp</h5>
                         <p class="card-text">Modern fitness center with courses, trainers, and workout programs.</p>
-                        <a href="/fitness/" class="btn btn-danger">Visit Fitness <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/fitness/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/FitnessWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +168,14 @@
                         </div>
                         <h5 class="card-title">Hotel WebApp</h5>
                         <p class="card-text">Complete hotel booking platform with rooms and amenities.</p>
-                        <a href="/hotel/" class="btn btn-warning">Visit Hotel <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/hotel/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/HotelWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,7 +187,14 @@
                         </div>
                         <h5 class="card-title">Restaurant WebApp</h5>
                         <p class="card-text">Full-featured restaurant with menu and reservations.</p>
-                        <a href="/restaurant/" class="btn btn-success">Visit Restaurant <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/restaurant/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/ResturantsWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,7 +206,14 @@
                         </div>
                         <h5 class="card-title">Online Store</h5>
                         <p class="card-text">E-commerce platform with products and shopping cart.</p>
-                        <a href="/store/" class="btn btn-info">Visit Store <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/store/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/OnlineStoreWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,7 +232,14 @@
                         </div>
                         <h5 class="card-title">Lawyer WebApp</h5>
                         <p class="card-text">Professional law firm with practice areas and attorneys.</p>
-                        <a href="/lawyer/" class="btn btn-dark">Visit Law Firm <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/lawyer/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/LawyerWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -145,7 +251,14 @@
                         </div>
                         <h5 class="card-title">Interior Design</h5>
                         <p class="card-text">Portfolio website for interior designers and projects.</p>
-                        <a href="/interior/" class="btn btn-secondary">Visit Portfolio <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/interior/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/InteriorDesignWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,7 +277,14 @@
                         </div>
                         <h5 class="card-title">School WebApp</h5>
                         <p class="card-text">Educational institution with courses and admissions.</p>
-                        <a href="/school/" class="btn btn-primary">Visit School <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/school/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/SchoolWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,7 +296,14 @@
                         </div>
                         <h5 class="card-title">NGO Charity</h5>
                         <p class="card-text">Charity organization with donations and volunteer programs.</p>
-                        <a href="/ngo/" class="btn btn-danger">Visit NGO <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/ngo/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/NGOCharityWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,7 +322,14 @@
                         </div>
                         <h5 class="card-title">Blog WebApp</h5>
                         <p class="card-text">Modern blog platform with articles and authors.</p>
-                        <a href="/blog/" class="btn btn-info">Visit Blog <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/blog/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/BlogWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -207,7 +341,14 @@
                         </div>
                         <h5 class="card-title">News WebApp</h5>
                         <p class="card-text">Professional news website with breaking news.</p>
-                        <a href="/news/" class="btn btn-warning">Visit News <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/news/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/NewsWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -219,7 +360,14 @@
                         </div>
                         <h5 class="card-title">Portfolio WebApp</h5>
                         <p class="card-text">Personal portfolio showcase for professionals.</p>
-                        <a href="/portfolio/" class="btn btn-success">Visit Portfolio <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/portfolio/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/PortfolioWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,7 +386,14 @@
                         </div>
                         <h5 class="card-title">Startup WebApp</h5>
                         <p class="card-text">Modern startup company with products and team.</p>
-                        <a href="/startup/" class="btn btn-primary">Visit Startup <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/startup/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/StartupWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,7 +405,14 @@
                         </div>
                         <h5 class="card-title">Travel WebApp</h5>
                         <p class="card-text">Travel and tourism platform with destinations.</p>
-                        <a href="/travel/" class="btn btn-info">Visit Travel <i class="fas fa-arrow-right"></i></a>
+                        <div class="d-flex btn-group-custom justify-content-center">
+                            <a href="/travel/" class="btn btn-live btn-sm">
+                                <i class="fas fa-eye"></i> Live Visit
+                            </a>
+                            <a href="https://github.com/Arya182-ui/iiot6-webapp-suite/tree/master/TravelWebApp" target="_blank" class="btn btn-source btn-sm">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -258,17 +420,79 @@
 
     </div>
 
+    <!-- Tech Stack Section -->
+    <div class="bg-white py-5 border-top">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">⚙️ Technologies Used</h2>
+                <p class="text-muted">Built with modern web technologies</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fab fa-python" style="font-size: 3rem; color: #3776ab;"></i>
+                        <h6 class="mt-2">Python</h6>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fas fa-flask" style="font-size: 3rem; color: #000;"></i>
+                        <h6 class="mt-2">Flask</h6>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fab fa-html5" style="font-size: 3rem; color: #e34f26;"></i>
+                        <h6 class="mt-2">HTML5</h6>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fab fa-css3-alt" style="font-size: 3rem; color: #1572b6;"></i>
+                        <h6 class="mt-2">CSS3</h6>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fab fa-js-square" style="font-size: 3rem; color: #f7df1e;"></i>
+                        <h6 class="mt-2">JavaScript</h6>
+                    </div>
+                </div>
+                <div class="col-md-2 col-4 mb-4 text-center">
+                    <div class="p-3">
+                        <i class="fab fa-bootstrap" style="font-size: 3rem; color: #563d7c;"></i>
+                        <h6 class="mt-2">Bootstrap</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <div class="bg-dark text-white py-4">
         <div class="container">
-            <div class="text-center">
-                <p class="mb-2">
-                    <i class="fas fa-graduation-cap"></i> 
-                    <strong>Invertis University - B.Tech CSE (IIOT-6)</strong>
-                </p>
-                <p class="mb-0 text-muted">
-                    Phase 1: Frontend Development & Flask Integration | 6th Semester Project
-                </p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>
+                        <i class="fas fa-graduation-cap"></i> 
+                        <strong>Invertis University</strong>
+                    </h5>
+                    <p class="mb-2">B.Tech Computer Science & Engineering (IIOT-6)</p>
+                    <p class="mb-0 text-muted">
+                        Phase 1: Frontend Development & Flask Integration | 6th Semester Project
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h6>Quick Links</h6>
+                    <div class="mb-3">
+                        <a href="https://github.com/Arya182-ui/iiot6-webapp-suite" target="_blank" class="text-light text-decoration-none me-3">
+                            <i class="fab fa-github"></i> GitHub Repository
+                        </a>
+                    </div>
+                    <div class="text-muted">
+                        <small>Built with ❤️ using Flask & Bootstrap</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

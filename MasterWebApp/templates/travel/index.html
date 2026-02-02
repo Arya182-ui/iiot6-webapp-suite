@@ -18,10 +18,10 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="/static/travel/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="/static/travel/css/style.css" rel="stylesheet">
     </head>
 
     <body>
@@ -71,7 +71,7 @@
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Travela</h1>
-                    <!-- <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo"> -->
+                    <!-- <img src="/static/travel/img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -98,7 +98,7 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img src="{{ url_for('static', filename='img/carousel-2.jpg') }}" class="img-fluid" alt="Image">
+                            <img src="/static/travel/img/carousel-2.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                     <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ url_for('static', filename='img/carousel-1.jpg') }}" class="img-fluid" alt="Image">
+                            <img src="/static/travel/img/carousel-1.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                     <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ url_for('static', filename='img/carousel-3.jpg') }}" class="img-fluid" alt="Image">
+                            <img src="/static/travel/img/carousel-3.jpg" class="img-fluid" alt="Image">
                             <div class="carousel-caption">
                                 <div class="p-3" style="max-width: 900px;">
                                     <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
@@ -168,7 +168,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-5">
                         <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
-                            <img src="{{ url_for('static', filename='img/about-img.jpg') }}" class="img-fluid w-100 h-100" alt="">
+                            <img src="/static/travel/img/about-img.jpg" class="img-fluid w-100 h-100" alt="">
                         </div>
                     </div>
                     <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
@@ -339,7 +339,7 @@
                         <div class="blog-item">
                             <div class="blog-img">
                                 <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="{{ url_for('static', filename='img/blog-1.jpg') }}" alt="Image">
+                                    <img class="img-fluid w-100 rounded-top" src="/static/travel/img/blog-1.jpg" alt="Image">
                                     <div class="blog-icon">
                                         <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
                                     </div>
@@ -362,7 +362,7 @@
                         <div class="blog-item">
                             <div class="blog-img">
                                 <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="{{ url_for('static', filename='img/blog-2.jpg') }}" alt="Image">
+                                    <img class="img-fluid w-100 rounded-top" src="/static/travel/img/blog-2.jpg" alt="Image">
                                     <div class="blog-icon">
                                         <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
                                     </div>
@@ -385,7 +385,7 @@
                         <div class="blog-item">
                             <div class="blog-img">
                                 <div class="blog-img-inner">
-                                    <img class="img-fluid w-100 rounded-top" src="{{ url_for('static', filename='img/blog-3.jpg') }}" alt="Image">
+                                    <img class="img-fluid w-100 rounded-top" src="/static/travel/img/blog-3.jpg" alt="Image">
                                     <div class="blog-icon">
                                         <a href="#" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
                                     </div>
@@ -616,12 +616,12 @@
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="{{ url_for('static', filename='lib/easing/easing.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='lib/waypoints/waypoints.min.js') }}"></script>
+        <script src="/static/travel/lib/easing/easing.min.js"></script>
+        <script src="/static/travel/lib/waypoints/waypoints.min.js"></script>
         
 
         <!-- Template Javascript -->
-        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+        <script src="/static/travel/js/main.js"></script>
     </body>
 
 </html>

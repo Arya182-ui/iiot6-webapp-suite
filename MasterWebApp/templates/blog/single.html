@@ -8,7 +8,7 @@
         <meta content="Free Website Template" name="description">
 
         <!-- Favicon -->
-        <link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="icon">
+        <link href="/static/blog/img/favicon.ico" rel="icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
@@ -17,14 +17,14 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
         <!-- Customized Bootstrap Stylesheet -->
-        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+        <link href="/static/blog/css/style.css" rel="stylesheet">
     </head>
 
 <body>
     <div class="wrapper">
         <div class="sidebar">
             <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Image">
+                <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="/static/blog/img/profile.jpg" alt="Image">
                 <h1 class="font-weight-bold">Kate Glover</h1>
                 <p class="mb-4">
                     Justo stet no accusam stet invidunt sanctus magna clita vero eirmod, sit sit labore dolores lorem. Lorem at sit dolor dolores sed diam justo
@@ -88,7 +88,7 @@
             <div class="container py-5 px-2 bg-white">
                 <div class="row px-4">
                     <div class="col-12">
-                        <img class="img-fluid mb-4" src="{{ url_for('static', filename='img/detail.jpg') }}" alt="Image">
+                        <img class="img-fluid mb-4" src="/static/blog/img/detail.jpg" alt="Image">
                         <h2 class="mb-3 font-weight-bold">Nonumy ipsum takimata et sanct</h2>
                         <div class="d-flex">
                             <p class="mr-3 text-muted"><i class="fa fa-calendar-alt"></i> 01-Jan-2045</p>
@@ -97,7 +97,7 @@
                         </div>
                         <p>Clita duo sadipscing amet ea ut kasd amet dolore, sed erat at dolore vero tempor et sit amet, amet amet elitr et consetetur ea duo. Gubergren tempor rebum clita at sit diam. Ea sadipscing voluptua et sit diam diam sed, gubergren magna ipsum lorem clita dolores nonumy dolor. Gubergren duo invidunt elitr amet labore dolores justo sanctus nonumy. Accusam diam tempor at ea clita dolores dolor et ipsum, dolor voluptua consetetur gubergren sit, no consetetur kasd vero invidunt clita dolore elitr eos, accusam amet et labore sed sadipscing accusam labore dolores. Eirmod no lorem sed dolor nonumy consetetur tempor sed.</p>
                         <h3 class="mb-3 font-weight-bold">Est dolor lorem et ea</h3>
-                        <img class="w-50 float-left mr-4 mb-3" src="{{ url_for('static', filename='img/blog-1.jpg') }}" alt="Image">
+                        <img class="w-50 float-left mr-4 mb-3" src="/static/blog/img/blog-1.jpg" alt="Image">
                         <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut. Ea sed sadipscing no justo et eos labore, gubergren ipsum magna dolor lorem dolore, elitr aliquyam takimata sea kasd dolores diam, amet et est accusam labore eirmod vero et voluptua. Amet labore clita duo et no. Rebum voluptua magna eos magna, justo gubergren labore sit voluptua eos. Dolores et no stet magna et gubergren amet dolor sit, lorem dolore est vero et.</p>
                     </div>
                     <div class="col-12 py-4">
@@ -118,7 +118,7 @@
                     <div class="col-12 py-4">
                         <h3 class="mb-4 font-weight-bold">3 Comments</h3>
                         <div class="media mb-4">
-                            <img src="{{ url_for('static', filename='img/user.jpg') }}" alt="Image" class="mr-3 mt-1 rounded-circle" style="width:60px;">
+                            <img src="/static/blog/img/user.jpg" alt="Image" class="mr-3 mt-1 rounded-circle" style="width:60px;">
                             <div class="media-body">
                                 <h4>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -127,7 +127,7 @@
                             </div>
                         </div>
                         <div class="media mb-4">
-                            <img src="{{ url_for('static', filename='img/user.jpg') }}" alt="Image" class="mr-3 mt-1 rounded-circle"
+                            <img src="/static/blog/img/user.jpg" alt="Image" class="mr-3 mt-1 rounded-circle"
                                 style="width:60px;">
                             <div class="media-body">
                                 <h4>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h4>
@@ -135,7 +135,7 @@
                                 </p>
                                 <button class="btn btn-sm btn-light">Reply</button>
                                 <div class="media mt-4">
-                                    <img src="{{ url_for('static', filename='img/user.jpg') }}" alt="Image" class="mr-3 mt-1 rounded-circle"
+                                    <img src="/static/blog/img/user.jpg" alt="Image" class="mr-3 mt-1 rounded-circle"
                                         style="width:60px;">
                                     <div class="media-body">
                                         <h4>John Doe <small><i>01 Jan 2045 at 12:00pm</i></small></h4>
@@ -192,14 +192,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ url_for('static', filename='lib/easing/easing.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/waypoints/waypoints.min.js') }}"></script>
+    <script src="/static/blog/lib/easing/easing.min.js"></script>
+    <script src="/static/blog/lib/waypoints/waypoints.min.js"></script>
 
     <!-- Contact Javascript File -->
-    <script src="{{ url_for('static', filename='mail/jqBootstrapValidation.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='mail/contact.js') }}"></script>
+    <script src="/static/blog/mail/jqBootstrapValidation.min.js"></script>
+    <script src="/static/blog/mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="/static/blog/js/main.js"></script>
 </body>
 </html>
