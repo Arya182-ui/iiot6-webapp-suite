@@ -138,6 +138,6 @@ Please follow the existing code style and add documentation where necessary.
 
 ## License
 
-This project is intended for academic and educational purposes. For other uses, please contact the repository maintainers.
+This project is intended for academic and educational purposes. For other uses, please contact the repository maintainers @Arya182-ui
 
 ---
